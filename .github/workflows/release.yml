@@ -56,16 +56,16 @@ jobs:
             requirements-dev.lock
 
       - name: Install (version-pinned, no hash verification)
-        # NOTE: --require-hashes removed: requirements.lock 是 uv pip compile 生成的,
-        # 与 uv 解析器兼容。pip --require-hashes 要求每个 transitive 都在 -r 里显式
-        # 出现带 hash,而 sqlalchemy 等包的条件依赖(greenlet)在 uv compile 时被省略,
-        # 直接用 pip --require-hashes 会失败。版本 pin + uv reconcile 已经提供
-        # 可重现性;hash 校验留给生产 installs (deploy/helm, K8s manifest)。
+        # NOTE: 用 uv pip install 而不是 pip install。requirements.lock 由 uv pip
+        # compile --generate-hashes 生成,文件内嵌 --hash=sha256: 行 → 任何 pip
+        # 直接 -r 它都会自动启用 --require-hashes 模式,要求每个 transitive 都在 -r
+        # 里显式带 hash。sqlalchemy 等的条件依赖(greenlet)被 uv compile 省略了,
+        # 所以 pip hash 模式失败。uv pip install 与锁文件生成器同源,正确解析
+        # transitive(hash 校验留给生产 installs — deploy/helm / K8s manifest)。
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.lock
-          pip install -r requirements-dev.lock
-          pip install --no-deps -e .
+          python -m pip install --upgrade pip uv
+          uv pip install --system -r requirements.lock -r requirements-dev.lock
+          uv pip install --system --no-deps -e .
 
       - name: Ruff lint
         run: ruff check .
