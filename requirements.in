@@ -23,4 +23,8 @@ pgvector>=0.3,<0.4
 psycopg[binary]>=3.1,<4
 sqlalchemy>=2.0,<3.0
 boto3>=1.34,<2.0
+# packaging: chromadb 1.5.9 锁 ==25;jupyter-server 要 >=26。
+# refresh_lockfile.sh 单独 compile prod/dev 导致 lockfile 冲突(resolution 错位)。
+# 显式放宽区间让 prod 单 resolve 选 26.x,跟 dev.lock 自然一致。
+packaging>=25,<27
 langgraph>=0.2,<1.0  # P1 ask_agentic StateGraph 硬依赖（ENTERPRISE_AUDIT A-5 修复 2026-07-29）
