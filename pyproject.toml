@@ -69,6 +69,14 @@ observability = [
     "opentelemetry-instrumentation-fastapi>=0.48b0",
 ]
 
+# rag-program 是 monorepo metapackage: 子项目 P1..P6 在 projects/ 下各自有 pyproject.toml,
+# 顶层 `eval/` `datasets/` 这些含 __init__.py 的目录是评测脚本/note,不该被 setuptools
+# 自动 discover 当成可导入包。显式空 include 关闭自动发现 — 此包本身无 Python 模块,
+# 仅声明依赖(pyproject.toml [project].dependencies)+ namespaces (course-mirror)。
+[tool.setuptools.packages.find]
+include = ["non_existent*"]
+namespaces = false
+
 [tool.ruff]
 line-length = 100
 target-version = "py311"
