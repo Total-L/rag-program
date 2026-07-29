@@ -1,0 +1,64 @@
+# ─────────────────────────────────────────────────────────────
+# OpenTelemetry Collector — rag_program（C5）
+#
+# 接收 P1 FastAPI / P6 摄取 / eval 的 OTLP，导出到：
+#   1) Prometheus（直接给 Grafana 画图）
+#   2) 控制台（debug 用 — dev 阶段方便看 raw spans）
+#
+# 生产应换成 OTLP → Jaeger / Tempo / Honeycomb 之类后端；这里走 Prometheus 是 MVP。
+# ─────────────────────────────────────────────────────────────
+
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+processors:
+  batch:
+    timeout: 10s
+    send_batch_size: 1024
+    send_batch_max_size: 2048
+
+  # 资源属性 enrichment（按 tenant_id / service.name 标签便于 Grafana 切片）
+  resource:
+    attributes:
+      - key: deployment.environment
+        value: dev
+        action: upsert
+
+exporters:
+  prometheus:
+    endpoint: 0.0.0.0:8889
+    namespace: rag
+    const_labels:
+      service: rag-program
+
+  debug:
+    verbosity: basic
+
+  # 未来扩展位（staging 加 Jaeger / 生产加 Honeycomb）
+  # otlp/jaeger:
+  #   endpoint: jaeger:4317
+  #   tls:
+  #     insecure: true
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch, resource]
+      exporters: [debug]  # 留 debug 用于本地看 raw spans
+    metrics:
+      receivers: [otlp]
+      processors: [batch, resource]
+      exporters: [prometheus, debug]
+
+  # 接收器 / 处理器 / 导出器各自的 telemetry（给运维自查 collector 自身健康）
+  telemetry:
+    logs:
+      level: info
+    metrics:
+      address: 0.0.0.0:8888

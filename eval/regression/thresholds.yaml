@@ -1,0 +1,48 @@
+# RAG 实战训练营 — 评测阈值
+# 改动任何阈值需在 PR 描述中说明影响
+# v2 (2026-07)：字段对齐 eval.py 实际产出。
+# hit_rate / recall_at_10 / mrr 现在是真 doc_id 集合比对（详见 RCA_p1_eval_regression.md 根因 1+4 修复）
+# protected_path_leakage 已移出 golden 评测，单独在 p1/tests/test_security.py 跑
+# latency 不在 regression gate（应放 SLO 文档）
+
+p1-enterprise-kb:
+  # 检索
+  hit_rate: 0.50           # 真 doc_id 命中率（retrieved_source_ids ∩ expected_doc_ids）
+  recall_at_10: 0.50       # topk 命中 expected 的比例
+  mrr: 0.40                # 首个 expected 命中的 1/排名
+  # 引用与拒答
+  citation_validity: 0.95  # 引用是否指向真实 chunk
+  abstention_correctness: 0.70  # 拒答判断正确率
+  # 生成内容
+  contains_expected: 0.50  # 答案含期望关键词比例（faithfulness 弱代理）
+
+p2-code-docs-rag:
+  recall_at_10: 0.70
+  faithfulness: 0.80
+  symbol_search_accuracy: 0.75
+
+p3-customer-service:
+  intent_accuracy: 0.85
+  transfer_precision: 0.80
+  response_latency_p95_ms: 1500
+
+p4-finance-research:
+  recall_at_10: 0.75
+  table_qa_accuracy: 0.70
+  temporal_accuracy: 0.85
+
+# ── 阶段 5：数据工程（企业级三件套） ──
+data-engineering:
+  # 提取 (L17 + P6 connectors)
+  ingestion_idempotency: 1.00   # 重跑 = 0 重嵌（★ 增量核心收益）
+  ingestion_stale_clean: 1.00   # 编辑文档后旧 chunk 必须 100% 清掉
+  # 优化 (L19 + L20)
+  pii_leakage_to_index: 0       # 任意一条 PII/密钥进向量库 = 阻塞
+  near_dup_recall: 0.85         # 长文档近重复召回率
+  normalize_idempotency: 1.00   # 全角/零宽/CRLF 归一后 sha256 必须相同
+  # 写向量库 (L22 + P6 store)
+  upsert_idempotency: 1.00      # 重跑 upsert 行数不变
+  metadata_filter_no_leak: 1.00 # ACL 过滤后 restricted 不出现在 public 查询里
+  # 整体流程 (P6 run_ingest.py)
+  dlq_failure_rate_max: 0.01    # 失败率 > 1% 阻塞合并
+  end_to_end_throughput_chunks_per_s: 50   # 含真实 Ollama 嵌入的最低吞吐

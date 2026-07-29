@@ -1,0 +1,1 @@
+"""L03 / L04 共享 helper(slim 闭域语料 + 对齐 golden)。"""

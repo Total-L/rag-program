@@ -1,0 +1,26 @@
+[
+  {
+    "strategy": "fixed",
+    "n": 2,
+    "avg_size": 182.5,
+    "max_size": 200,
+    "min_size": 165,
+    "coverage": 1.09
+  },
+  {
+    "strategy": "recursive",
+    "n": 8,
+    "avg_size": 38.4,
+    "max_size": 66,
+    "min_size": 9,
+    "coverage": 0.916
+  },
+  {
+    "strategy": "markdown",
+    "n": 7,
+    "avg_size": 37.7,
+    "max_size": 60,
+    "min_size": 15,
+    "coverage": 0.788
+  }
+]

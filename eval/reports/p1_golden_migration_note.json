@@ -1,0 +1,32 @@
+{
+  "_comment": "D8 RCA 之外的根因(本轮挖出),不算 golden 报告,只是修复追踪",
+  "found_in_round": "2026-07-29 A 重跑 P1 评估",
+  "blocking": "langgraph missing in requirements",
+  "expected_to_unblock": "在 pyproject.toml + requirements.in + requirements.lock 加 langgraph>=0.2 后重跑",
+  "before_state": {
+    "pipeline_index_size": "0",
+    "chroma_collection_p1_chunks": 750,
+    "chroma_collection_p6_chunks": 0,
+    "all_chroma_tenant_ids_distinct": ["_unassigned"],
+    "langgraph_import": "ModuleNotFoundError"
+  },
+  "fixes_applied": [
+    {
+      "id": "A-1",
+      "file": "projects/p1-enterprise-kb/src/eval.py",
+      "change": "main() 包 with tenant_scope;补 load_golden() 调用",
+      "verified": "不再 TenantRequiredError"
+    },
+    {
+      "id": "A-2",
+      "file": "projects/p1-enterprise-kb/data/index/chroma.sqlite3 (P1)",
+      "change": "将 750 条历史 chunk 的 tenant_id 从 _unassigned 全量更新为 acme-corp",
+      "verified": "fetch_all(where: acme-corp) 从 0 → 750"
+    }
+  ],
+  "remaining_blocker": {
+    "id": "A-3",
+    "issue": "langgraph 未在 pyproject/requirements.in 声明 — 供应链缺口",
+    "action_required": "加 'langgraph>=0.2,<1.0' 到 pyproject.toml [project] dependencies + 同步到 requirements.in + 重跑 scripts/refresh_lockfile.sh"
+  }
+}

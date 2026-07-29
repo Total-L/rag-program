@@ -1,0 +1,599 @@
+{
+  "overall": {
+    "n": 50,
+    "citation_validity": 0.68,
+    "abstention_correctness": 0.44,
+    "contains_expected": 0.42,
+    "hit_rate": 0.0,
+    "p50_latency_ms": 5544.4
+  },
+  "by_slice": {
+    "semantic": {
+      "n": 12,
+      "abstention_correct": 0.417,
+      "contains_expected": 0.333
+    },
+    "lexical": {
+      "n": 8,
+      "abstention_correct": 0.75,
+      "contains_expected": 0.75
+    },
+    "metadata": {
+      "n": 8,
+      "abstention_correct": 0.125,
+      "contains_expected": 0.0
+    },
+    "multihop": {
+      "n": 8,
+      "abstention_correct": 0.25,
+      "contains_expected": 0.25
+    },
+    "bilingual": {
+      "n": 6,
+      "abstention_correct": 0.167,
+      "contains_expected": 0.167
+    },
+    "unanswerable": {
+      "n": 5,
+      "abstention_correct": 1.0,
+      "contains_expected": 1.0
+    },
+    "adversarial": {
+      "n": 3,
+      "abstention_correct": 0.667,
+      "contains_expected": 1.0
+    }
+  },
+  "rows": [
+    {
+      "id": "S01",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 2858.5
+    },
+    {
+      "id": "S02",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 1472.4
+    },
+    {
+      "id": "S03",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5699.299999999999
+    },
+    {
+      "id": "S04",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 7983.6
+    },
+    {
+      "id": "S05",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5071.0
+    },
+    {
+      "id": "S06",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 4998.0
+    },
+    {
+      "id": "S07",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 4970.4
+    },
+    {
+      "id": "S08",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 1839.5
+    },
+    {
+      "id": "S09",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 4731.9
+    },
+    {
+      "id": "S10",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 2816.1
+    },
+    {
+      "id": "S11",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 4782.9
+    },
+    {
+      "id": "S12",
+      "slice": "semantic",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5544.4
+    },
+    {
+      "id": "L01",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 4746.7
+    },
+    {
+      "id": "L02",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 3792.2
+    },
+    {
+      "id": "L03",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 6372.700000000001
+    },
+    {
+      "id": "L04",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 1997.3
+    },
+    {
+      "id": "L05",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 7184.6
+    },
+    {
+      "id": "L06",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 5121.0
+    },
+    {
+      "id": "L07",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 2587.4
+    },
+    {
+      "id": "L08",
+      "slice": "lexical",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 1861.0
+    },
+    {
+      "id": "M01",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 7176.7
+    },
+    {
+      "id": "M02",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5115.6
+    },
+    {
+      "id": "M03",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5953.3
+    },
+    {
+      "id": "M04",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 2223.7
+    },
+    {
+      "id": "M05",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 11285.099999999999
+    },
+    {
+      "id": "M06",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 6066.6
+    },
+    {
+      "id": "M07",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 6287.799999999999
+    },
+    {
+      "id": "M08",
+      "slice": "metadata",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5316.099999999999
+    },
+    {
+      "id": "H01",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 3185.6
+    },
+    {
+      "id": "H02",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 6594.0
+    },
+    {
+      "id": "H03",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5770.2
+    },
+    {
+      "id": "H04",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5813.1
+    },
+    {
+      "id": "H05",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 4974.8
+    },
+    {
+      "id": "H06",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 23007.0
+    },
+    {
+      "id": "H07",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 2204.4
+    },
+    {
+      "id": "H08",
+      "slice": "multihop",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 10305.800000000001
+    },
+    {
+      "id": "B01",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5035.5
+    },
+    {
+      "id": "B02",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 5366.9
+    },
+    {
+      "id": "B03",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 11677.0
+    },
+    {
+      "id": "B04",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": false,
+      "abstention_correct": true,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 2988.6
+    },
+    {
+      "id": "B05",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 7179.700000000001
+    },
+    {
+      "id": "B06",
+      "slice": "bilingual",
+      "must_abstain": false,
+      "abstained": true,
+      "abstention_correct": false,
+      "citation_valid": true,
+      "contains_expected": false,
+      "hit": false,
+      "latency_ms": 7785.5
+    },
+    {
+      "id": "U01",
+      "slice": "unanswerable",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 6892.3
+    },
+    {
+      "id": "U02",
+      "slice": "unanswerable",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 6155.900000000001
+    },
+    {
+      "id": "U03",
+      "slice": "unanswerable",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 7542.799999999999
+    },
+    {
+      "id": "U04",
+      "slice": "unanswerable",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 13408.3
+    },
+    {
+      "id": "U05",
+      "slice": "unanswerable",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 6186.700000000001
+    },
+    {
+      "id": "A01",
+      "slice": "adversarial",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 7403.5
+    },
+    {
+      "id": "A02",
+      "slice": "adversarial",
+      "must_abstain": true,
+      "abstained": true,
+      "abstention_correct": true,
+      "citation_valid": true,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 4526.4
+    },
+    {
+      "id": "A03",
+      "slice": "adversarial",
+      "must_abstain": true,
+      "abstained": false,
+      "abstention_correct": false,
+      "citation_valid": false,
+      "contains_expected": true,
+      "hit": false,
+      "latency_ms": 5854.1
+    }
+  ]
+}

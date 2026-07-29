@@ -1,0 +1,8 @@
+{"id": "L01", "question": "员工每年能休多少天年假？", "slice": "semantic", "expected_doc_ids": ["lab-hr-01"], "expected_answer_contains": ["年假", "5 天"], "must_abstain": false, "difficulty": "easy", "language": "zh"}
+{"id": "L02", "question": "新入职的同事每年法定假期之外的休假有几天？", "slice": "semantic", "expected_doc_ids": ["lab-hr-01"], "expected_answer_contains": ["5 天"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L03", "question": "如果生病需要请假怎么办？", "slice": "semantic", "expected_doc_ids": ["lab-hr-02"], "expected_answer_contains": ["OA", "医院证明"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L04", "question": "差旅能住多少钱的酒店？", "slice": "semantic", "expected_doc_ids": ["lab-hr-03"], "expected_answer_contains": ["800 元", "一线"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L05", "question": "如何访问公司内部网络？", "slice": "semantic", "expected_doc_ids": ["lab-it-01"], "expected_answer_contains": ["VPN"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L06", "question": "公司的发版流程是怎么样的？", "slice": "semantic", "expected_doc_ids": ["lab-rel-01"], "expected_answer_contains": ["周二封板", "灰度"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L07", "question": "P0 事故响应时限是多久？", "slice": "semantic", "expected_doc_ids": ["lab-inc-01"], "expected_answer_contains": ["30 分钟"], "must_abstain": false, "difficulty": "medium", "language": "zh"}
+{"id": "L08", "question": "公司有没有关于量子计算的内部政策？", "slice": "unanswerable", "expected_doc_ids": [], "expected_answer_contains": [], "must_abstain": true, "difficulty": "medium", "language": "zh"}

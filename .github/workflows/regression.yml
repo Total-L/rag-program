@@ -1,0 +1,98 @@
+# rag_program Regression Gate — 真 RAGAS eval
+# ENTERPRISE_AUDIT.md S1
+#
+# 设计要点：
+# - 不能默认进 PR：跑 RAGAS 需要本地 Ollama + GPU，CI runner 没
+# - 触发：workflow_dispatch（手动）+ schedule（每周一 02:00 UTC）
+# - 失败时开 issue 锁主分支（可选：需要 GH token 配置）
+#
+# 用法：
+#   1. 手动：GitHub UI → Actions → regression → Run workflow → 选分支
+#   2. 自动：每周一 02:00 UTC
+#   3. PR 加 'regression' label 也可以触发（可选，未启用）
+
+name: regression
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "项目（空=全跑）"
+        required: false
+        default: ""
+        type: choice
+        options:
+          - ""
+          - "p1-enterprise-kb"
+          - "p2-code-docs-rag"
+          - "p3-customer-service"
+          - "p4-finance-research"
+          - "p5-multi-format-loader"
+          - "p6-ingestion-platform"
+  schedule:
+    # 每周一 02:00 UTC（避开工作时间）
+    - cron: "0 2 * * 1"
+
+concurrency:
+  group: regression-${{ github.ref }}
+  cancel-in-progress: false  # 不要取消，可能跑到一半
+
+jobs:
+  verify-p1:
+    name: verify-${{ inputs.project || 'all' }}
+    runs-on: [self-hosted, ollama]   # 需要 runner 装了 Ollama
+    # 默认 runner 没 ollama label：用 ubuntu-latest + 装/启 Ollama script 替代
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # ── 1. 起 Ollama ──
+      - name: Install Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 10
+          ollama pull llama3.2:3b
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      # ── 2. 跑 verify-p1 ──
+      - name: Run verify-p1 (with Ollama)
+        env:
+          OLLAMA_HOST: http://localhost:11434
+        run: |
+          if [ -n "${{ inputs.project }}" ]; then
+            make verify-${{ inputs.project }}
+          else
+            make verify-p1
+          fi
+
+      # ── 3. check_thresholds 走真 gate ──
+      - name: Threshold gate
+        run: |
+          python eval/regression/check_thresholds.py
+
+      # ── 4. 上传报告 ──
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: regression-report-${{ inputs.project || 'all' }}
+          path: eval/reports/
+          retention-days: 90
+
+      # ── 5. 失败时阻塞 ──
+      # 已通过 threshold gate 自然 exit 1；此处保留空 step 留扩展位
+      - name: Done
+        if: always()
+        run: |
+          if [ "${{ job.status }}" != "success" ]; then
+            echo "✗ Regression gate 失败：${{ job.status }}"
+            exit 1
+          fi

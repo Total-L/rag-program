@@ -1,0 +1,19 @@
+apiVersion: v2
+name: rag-program
+description: 企业级 RAG 实战项目的 k8s Helm chart(ENTERPRISE_AUDIT S5)
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+home: https://github.com/<owner>/rag-program
+sources:
+  - https://github.com/<owner>/rag-program
+keywords:
+  - rag
+  - retrieval-augmented-generation
+  - enterprise
+maintainers:
+  - name: rag-program maintainers
+    email: maintainers@example.com
+annotations:
+  category: AI/ML
+  licenses: MIT

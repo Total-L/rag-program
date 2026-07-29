@@ -1,0 +1,8 @@
+{
+  "user": {
+    "id": "alice",
+    "role": "manager"
+  },
+  "indexed_chunks": 1469,
+  "ok": true
+}

@@ -1,0 +1,22 @@
+{
+  "n": 100,
+  "p50_latency_ms": 377.0,
+  "p95_latency_ms": 767,
+  "by_stage": {
+    "retrieve": 30,
+    "rerank": 27,
+    "pack": 22,
+    "generate": 21
+  },
+  "error_rate": 0.1,
+  "error_types": [
+    [
+      "mmx_timeout",
+      5
+    ],
+    [
+      "chroma_lock",
+      5
+    ]
+  ]
+}

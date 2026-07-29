@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "id": "1001",
+      "title": "员工报销政策 2026",
+      "space": {"key": "HR"},
+      "version": {"number": 3, "by": {"displayName": "李静"}, "whenEpoch": 1769472000},
+      "metadata": {"labels": {"results": [{"name": "internal"}, {"name": "acl-hr"}]}},
+      "body": {"storage": {"value": "<h1>员工报销政策</h1><p>差旅报销需在 30 天内提交，单笔超过 5000 元需总监审批。报销联系人邮箱 finance@acme.com，热线 13812345678。</p><table><thead><tr><th>类别</th><th>限额</th></tr></thead><tbody><tr><td>市内交通</td><td>200/天</td></tr><tr><td>住宿</td><td>800/晚</td></tr></tbody></table>"}}
+    },
+    {
+      "id": "1002",
+      "title": "生产数据库连接方式",
+      "space": {"key": "IT"},
+      "version": {"number": 7, "by": {"displayName": "王强"}, "whenEpoch": 1769558400},
+      "metadata": {"labels": {"results": [{"name": "restricted"}, {"name": "acl-sre"}]}},
+      "body": {"storage": {"value": "<h1>生产库连接</h1><p>只允许通过跳板机访问。DSN: postgresql://svc_rag:Pr0dP%40ss@10.20.30.40:5432/kb。轮值同学身份证号 310101199001011234 已登记。</p>"}}
+    },
+    {
+      "id": "1003",
+      "title": "产品路线图 Q3",
+      "space": {"key": "PROD"},
+      "version": {"number": 1, "by": {"displayName": "张敏"}, "whenEpoch": 1769644800},
+      "metadata": {"labels": {"results": [{"name": "public"}]}},
+      "body": {"storage": {"value": "<h1>Q3 路线图</h1><p>重点交付多格式检索与增量索引。负责人 zhangmin@acme.com。</p>"}}
+    }
+  ]
+}

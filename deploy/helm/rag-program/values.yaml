@@ -1,0 +1,131 @@
+# rag-program Helm values
+# 默认值:单副本 + 1 CPU + 1Gi 内存 + 简单 ingress
+# 生产建议:replicas ≥ 2 + PDB + HPA
+
+# ── 镜像 ──
+image:
+  repository: ghcr.io/totallai/rag-program
+  tag: "0.1.0"  # 与 Chart.appVersion 同步,CI release 时自动改
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: []
+
+# ── replica + 调度 ──
+replicaCount: 1
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 1Gi
+  limits:
+    cpu: 2000m
+    memory: 4Gi
+
+nodeSelector: {}
+tolerations: []
+affinity: {}
+
+# ── service ──
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+
+# ── ingress ──
+ingress:
+  enabled: false
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"  # 摄取可上传文件
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
+  hosts:
+    - host: rag.example.com
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+# ── 健康检查 ──
+healthcheck:
+  liveness:
+    path: /v1/healthz
+    initialDelaySeconds: 30
+    periodSeconds: 30
+    timeoutSeconds: 5
+    failureThreshold: 3
+  readiness:
+    path: /v1/readyz
+    initialDelaySeconds: 10
+    periodSeconds: 10
+    timeoutSeconds: 5
+    failureThreshold: 3
+
+# ── 持久化(AUDIT_DIR + 数据卷)──
+persistence:
+  enabled: true
+  auditSize: 10Gi       # audit JSONL 日志
+  dataSize: 20Gi        # Chroma / 缓存 / 上传
+  storageClass: ""      # 留空用集群默认
+  accessModes:
+    - ReadWriteOnce
+
+# ── autoscaling ──
+autoscaling:
+  enabled: false
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+  targetMemoryUtilizationPercentage: 80
+
+# ── pod disruption budget ──
+podDisruptionBudget:
+  enabled: false
+  minAvailable: 1
+
+# ── security context(非 root)──
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 10001
+  runAsGroup: 10001
+  fsGroup: 10001
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  capabilities:
+    drop:
+      - ALL
+
+# ── service account ──
+serviceAccount:
+  create: true
+  name: ""  # 留空自动生成
+
+# ── ConfigMap / Secret keys ──
+config:
+  # 业务配置(env,会进 ConfigMap)
+  RAG_PROG_API_KEY: ""         # 必填,但留空 → 启动 fail loud(防止误发布)
+  RAG_PROG_LLM_BACKEND: "mmx"  # 或 ollama
+  RAG_PROG_AUDIT_DIR: "/var/lib/rag-program/audit"
+  RAG_PROG_DATA_DIR: "/var/lib/rag-program/data"
+  RAG_PROG_MAX_QUERY_LEN: "2000"
+  RAG_PROG_GUARD_FAIL_CLOSED: "true"
+  RAG_PROG_DEFAULT_TENANT: "default"
+  LOG_LEVEL: "INFO"
+
+secrets:
+  # 敏感配置(独立 Secret,base64 由 kubectl/helm 自动处理)
+  # 真实部署用 sealed-secrets / external-secrets / vault,不要 git 提交
+  AUDIT_USER_ID_SALT: ""      # 必填,留空 → 启动 fail loud
+  ANTHROPIC_API_KEY: ""       # mmx backend 用
+  OPENAI_API_KEY: ""          # mmx backend 备用
+  POSTGRES_PASSWORD: ""       # pgvector 后端
+
+# ── OTLP / OpenTelemetry(可选)──
+otel:
+  enabled: false
+  endpoint: "http://otel-collector:4317"  # service.namespace.ragnernet
+
+# ── Pod annotations(供 prometheus / istio 抓)──
+podAnnotations:
+  prometheus.io/scrape: "true"
+  prometheus.io/port: "8080"
+  prometheus.io/path: "/metrics"

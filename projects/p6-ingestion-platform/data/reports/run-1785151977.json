@@ -1,0 +1,17 @@
+{
+  "run_id": "run-1785151977",
+  "listed": 153,
+  "new": 153,
+  "changed": 0,
+  "unchanged": 0,
+  "deleted": 0,
+  "docs_indexed": 35,
+  "chunks_written": 67,
+  "stale_removed": 0,
+  "skipped_quality": 0,
+  "skipped_neardup": 118,
+  "pii_redacted_docs": 3,
+  "sensitivity_upgraded": 0,
+  "elapsed_s": 2.100857734680176,
+  "failures": 0
+}

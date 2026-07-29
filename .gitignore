@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Env
+.env
+*.env.local
+
+# Data (generated, can be rebuilt)
+datasets/fixtures/*/
+!datasets/fixtures/.gitkeep
+datasets/public/raw/
+eval/reports/*/
+!eval/reports/.gitkeep
+
+# venv
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Traces (may contain sensitive data)
+data/traces/
+projects/*/data/audit/
+
+# Vector index stores (rebuilt on demand; large + non-portable)
+projects/*/data/index/*.sqlite3
+projects/*/data/index/*.sqlite
+projects/*/data/index/chroma.sqlite3
+projects/*/chroma_db/*.sqlite3
+projects/*/data/manifest.sqlite

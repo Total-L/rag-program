@@ -1,0 +1,188 @@
+# Release pipeline (ENTERPRISE_AUDIT S5)
+#
+# Trigger: tag push v*.*.* 或手动 dispatch
+# Pipeline:
+#   1. lint + test + drift gate(与 PR 同一套)
+#   2. wheel + sdist 构建
+#   3. PyPI publish via OIDC trusted publishing(无需 API token secret)
+#   4. TestPyPI dry-run first(可选,workflow_dispatch 触发)
+#   5. GitHub Release 创建 + 上传 artifact
+#
+# Secrets 必须设:
+#   - TEST_PYPI_OIDC:已在 PyPI 配置 OIDC publisher(repo + workflow filename)
+#   - PYPI_OIDC:已在 PyPI 配置 OIDC publisher
+# 不需要存 PyPI token 到 GitHub Secrets(更安全)
+
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Publish target'
+        required: true
+        type: choice
+        default: 'testpypi'
+        options:
+          - testpypi
+          - pypi
+
+permissions:
+  contents: write  # 创建 GitHub Release
+  id-token: write  # OIDC trusted publishing
+
+jobs:
+  # ── Gate:与 PR CI 相同的 lint + test + drift ──
+  gate:
+    name: Lint + Test Gate
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            requirements.lock
+            requirements-dev.lock
+
+      - name: Install (hash-pinned)
+        run: |
+          python -m pip install --upgrade pip
+          pip install --require-hashes -r requirements.lock
+          pip install --require-hashes -r requirements-dev.lock
+          pip install --no-deps -e .
+
+      - name: Ruff lint
+        run: ruff check .
+
+      - name: Run tests
+        run: pytest projects/ -q -m "not integration"
+
+      - name: Lockfile drift check
+        run: python scripts/check_lockfile_drift.py
+
+  # ── Build ──
+  build:
+    name: Build Wheel + Sdist
+    needs: gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install build tools
+        run: python -m pip install --upgrade pip build
+
+      - name: Build
+        run: |
+          python -m build
+          ls -la dist/
+
+      - name: Verify metadata
+        run: |
+          python -m pip install twine
+          python -m twine check dist/*
+
+      - name: Upload artifacts (to GitHub Actions)
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+          retention-days: 14
+
+  # ── Publish to TestPyPI (always run first → catches breakage before prod) ──
+  publish-testpypi:
+    name: Publish to TestPyPI
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && inputs.target == 'testpypi'
+    environment: testpypi
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+
+      - name: Publish to TestPyPI via OIDC
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+          packages-dir: dist/
+          skip-existing: true
+
+  # ── Publish to PyPI (production) ──
+  publish-pypi:
+    name: Publish to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    environment: pypi
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+
+      - name: Publish to PyPI via OIDC
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+          skip-existing: false  # tag 必须对应唯一版本,重发要手动
+
+  # ── GitHub Release ──
+  github-release:
+    name: Create GitHub Release
+    needs: publish-pypi
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+
+      - name: Extract changelog
+        id: changelog
+        run: |
+          # 从 CHANGELOG.md 抽 [Unreleased] → [vX.Y.Z] 段作为 release notes
+          VERSION=${GITHUB_REF#refs/tags/v}
+          python -c "
+          import re, sys
+          text = open('CHANGELOG.md', encoding='utf-8').read()
+          m = re.search(r'## \[Unreleased\](.*?)(?=^## \[|\Z)', text, re.MULTILINE | re.DOTALL)
+          if m:
+              body = m.group(1).strip()
+              body = re.sub(r'^### Added.*$', '', body, flags=re.MULTILINE)
+              print(body[:2000])
+          else:
+              print('See CHANGELOG.md')
+          " > release_notes.md
+          cat release_notes.md
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body_path: release_notes.md
+          files: |
+            dist/*.whl
+            dist/*.tar.gz
+          draft: false
+          prerelease: ${{ contains(github.ref, 'rc') || contains(github.ref, 'beta') }}
+          fail_on_unmatched_files: false

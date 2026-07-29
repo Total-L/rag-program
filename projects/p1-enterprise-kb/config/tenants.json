@@ -1,0 +1,12 @@
+{
+  "acme-corp": {
+    "name": "Acme Corp (demo)",
+    "plan": "team",
+    "api_key": ""
+  },
+  "startup": {
+    "name": "Startup Inc (free tier)",
+    "plan": "free",
+    "api_key": ""
+  }
+}

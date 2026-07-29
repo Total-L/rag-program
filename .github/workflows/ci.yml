@@ -1,0 +1,111 @@
+# rag_program CI — lint + test matrix
+# ENTERPRISE_AUDIT.md S1
+#
+# 设计要点：
+# - Python 矩阵 3.11/3.12/3.13（pyproject 限定 >=3.11,<3.14）
+# - pip cache keyed by pyproject.toml hash（chromadb/pgvector 装一次 30s+）
+# - integration 标记的测试跳过（Ollama 依赖）
+# - regression gate 走独立 workflow（需要 Ollama，PR 不能默认跑）
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# 同 PR 取消 in-flight 旧跑（节省 CI 配额）
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+jobs:
+  # ── 1. lint：ruff check + format check ──
+  lint:
+    name: ruff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: ruff check
+        run: |
+          pip install "ruff>=0.6"
+          python -m ruff check projects/ eval/ --output-format=github
+
+      - name: ruff format check
+        run: |
+          python -m ruff format --check projects/ eval/
+
+  # ── 2. test：py3.11/3.12/3.13 矩阵 ──
+  test:
+    name: test-py${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # pip cache：依赖 lockfile + pyproject hash（ENTERPRISE_AUDIT M3）
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ matrix.python-version }}-${{ hashFiles('requirements.lock', 'requirements-dev.lock', 'pyproject.toml') }}
+          restore-keys: |
+            pip-${{ runner.os }}-${{ matrix.python-version }}-
+
+      - name: Install dependencies (hash-pinned via lockfile)
+        run: |
+          python -m pip install --upgrade pip
+          # ENTERPRISE_AUDIT M3：prod lockfile 必须 hash 模式装入 → 防供应链篡改
+          pip install --require-hashes -r requirements.lock
+          # dev tooling(测试/lint/type)
+          pip install --require-hashes -r requirements-dev.lock
+
+      - name: Edit-install local package (no-deps)
+        # 编辑模式装本仓库但不重装 deps(已用 lockfile 装好)
+        run: |
+          pip install --no-deps -e .
+
+      - name: Run tests (skip integration)
+        # integration marker = 需要 Ollama/外部服务的测试，CI 默认跳过
+        run: |
+          pytest projects/ -q -m "not integration"
+
+      - name: Drift check (lockfile ↔ pyproject)
+        # ENTERPRISE_AUDIT M3：lockfile 必须与 pyproject 同步
+        run: |
+          python scripts/check_lockfile_drift.py
+
+  # ── 3. status check：lint + test 都过才算绿 ──
+  status:
+    name: status
+    runs-on: ubuntu-latest
+    needs: [lint, test]
+    if: always()
+    steps:
+      - name: All checks passed
+        if: needs.lint.result == 'success' && needs.test.result == 'success'
+        run: echo "✓ lint + test 全绿"
+      - name: Report failure
+        if: needs.lint.result != 'success' || needs.test.result != 'success'
+        run: |
+          echo "✗ 至少一项失败：lint=${{ needs.lint.result }} test=${{ needs.test.result }}"
+          exit 1

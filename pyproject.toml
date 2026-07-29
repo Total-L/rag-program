@@ -1,0 +1,94 @@
+# rag-program — 企业级 RAG 实战项目
+# 独立可运行：不依赖 rag-course 存在。
+# 可选附件：pip install -e ".[course-mirror]" 启用 course-mirror 子模块。
+
+[project]
+name = "rag-program"
+version = "0.1.0"
+description = "企业级 RAG 实战：P1-P6 旗舰项目 + Stage-5 数据工程 + 评测门 + 面试材料"
+requires-python = ">=3.11,<3.14"
+
+# 仅本工作区需要的依赖（不依赖 kbchat / rag-course）
+dependencies = [
+    "ragas>=0.2,<0.3",          # 评测框架
+    "datasets>=2.20",           # 公开数据集（HotpotQA / NQ）
+    "matplotlib>=3.8",          # lab 可视化
+    "seaborn>=0.13",
+    "tiktoken>=0.7",            # token 计数
+    "rich>=13.0",               # 终端输出
+    "tree-sitter>=0.21",        # P2 代码切分
+    "tree-sitter-python>=0.21",
+    "streamlit>=1.39,<2.0",     # P1 UI
+    "camelot-py[base]>=0.11",   # P4 表格解析
+    "pypdf>=5.0",               # 文档解析
+    # ── M1 可观测基线（ENTERPRISE_AUDIT.md M1）──
+    "structlog>=24.1",          # 结构化 JSON 日志
+    "prometheus-client>=0.20",  # /metrics 端点
+    "tenacity>=8.2",            # 重试（ENTERPRISE_AUDIT D6-T1：替换 P6 手写 retry）
+    # ── M2 API 层（ENTERPRISE_AUDIT.md M2）──
+    "fastapi>=0.110,<1.0",      # REST server
+    "uvicorn[standard]>=0.30",  # ASGI server
+    "pydantic>=2.5",            # request/response schema
+    # ── Stage 5 数据工程 (L17-L22 + P6) ──
+    "chromadb>=1.5,<2.0",       # 本地/原型向量库（双后端之一）
+    "pgvector>=0.3,<0.4",       # 生产向量库（pgvector 后端）
+    "psycopg[binary]>=3.1,<4",  # pgvector 驱动
+    "sqlalchemy>=2.0,<3.0",     # SQL 连接器（业务库 / watermark 列）
+    "boto3>=1.34,<2.0",         # S3 / MinIO 连接器
+    # ENTERPRISE_AUDIT A-5 fix 2026-07-29:
+    # P1 ask() 主路径 pipeline.py:375 → ask_agentic → StateGraph
+    # (agentic_graph.py:32) 硬依赖。M3 lockfile 测试盲区
+    # ("代码 import 但 pyproject 没声明"漏报)。
+    "langgraph>=0.2,<1.0",      # P1 Self-RAG / CRAG 状态图
+]
+
+[project.optional-dependencies]
+# course-mirror 配套 lab：需要 rag-course 存在。
+# 用法：pip install -e ".[course-mirror]"
+# 缺包时 pip 会清晰报错（不会静默回退）。
+course-mirror = [
+    "kbchat @ file:///Users/totallai/rag-course",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.6",
+    "mypy>=1.10",
+    "ipykernel>=6.29",
+    "jupyter>=1.0",
+]
+# D6-T5：OpenTelemetry 最小集成（可选 — 装了就启用 OTLP exporter + FastAPI
+# auto-instrumentation；不装 server 仍可启动且 OTel code 路径全跳过）。
+# 启用方式：
+#   OTEL_ENABLED=true uvicorn server:app
+#   OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317
+observability = [
+    "opentelemetry-api>=1.27",
+    "opentelemetry-sdk>=1.27",
+    "opentelemetry-exporter-otlp>=1.27",
+    "opentelemetry-instrumentation-fastapi>=0.48b0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+# M3 修复（ENTERPRISE_AUDIT.md M3）：移除不存在的路径
+# "03-advanced-production/labs/L15-security/tests" 在解耦时已被迁走（→ course-mirror/）
+testpaths = ["projects"]
+markers = [
+    "slow: 慢测试（>10s）",
+    "integration: 需要外部依赖（Ollama / mmx）",
+    "security: 安全相关",
+    "api: FastAPI server 测试",
+    "observability: 可观测/metrics 测试",
+]

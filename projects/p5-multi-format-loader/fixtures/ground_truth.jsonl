@@ -1,0 +1,34 @@
+{"file": "sample.pdf", "expected_blocks": [
+  {"block_type": "text", "min_chars": 50, "must_contain": ["Quarterly", "Revenue"]},
+  {"block_type": "text", "min_chars": 30, "must_contain": ["Methodology"]},
+  {"block_type": "table", "min_rows": 4, "headers_must_include": ["Region", "Revenue", "Growth"]},
+  {"block_type": "image", "must_contain": ["APAC", "Revenue"]},
+  {"block_type": "image", "must_contain": ["Growth"]}
+]}
+
+{"file": "sample.docx", "expected_blocks": [
+  {"block_type": "text", "must_contain": ["Onboarding"]},
+  {"block_type": "heading", "must_contain": ["Week 1"]},
+  {"block_type": "heading", "must_contain": ["Week 2"]},
+  {"block_type": "heading", "must_contain": ["Week 4"]},
+  {"block_type": "table", "min_rows": 4, "headers_must_include": ["Day", "Task", "Owner"]}
+]}
+
+{"file": "sample.xlsx", "expected_blocks": [
+  {"block_type": "table", "page_or_sheet": "Headcount", "min_rows": 3, "headers_must_include": ["Department"]},
+  {"block_type": "table", "page_or_sheet": "Budget", "min_rows": 2, "headers_must_include": ["Category", "Allocated", "Spent"]}
+]}
+
+{"file": "sample.html", "expected_blocks": [
+  {"block_type": "heading", "must_contain": ["Product Catalog"]},
+  {"block_type": "heading", "must_contain": ["Flagship"]},
+  {"block_type": "heading", "must_contain": ["Availability"]},
+  {"block_type": "table", "min_rows": 3, "headers_must_include": ["SKU", "Name", "Price"]},
+  {"block_type": "image", "must_contain": ["Laptop", "1499"]}
+]}
+
+{"file": "architecture.pdf", "expected_blocks": [
+  {"block_type": "image", "must_contain": ["API Gateway", "Chroma", "OpenTelemetry", "BM25", "Reranker"]},
+  {"block_type": "table", "min_rows": 10, "headers_must_include": ["Component", "Responsibility", "Tech Stack"]},
+  {"block_type": "text", "must_contain": ["Ingestion Pipeline", "Query Pipeline", "Generation Pipeline", "Ollama nomic-embed-text", "llama3.1", "Hybrid Retriever"]}
+]}

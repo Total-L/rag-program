@@ -1,0 +1,20 @@
+# Patterns ignored by `helm package` (mirrors .gitignore but for chart artifacts)
+.DS_Store
+.git/
+.gitignore
+.bzr/
+.hg/
+.svn/
+*.swp
+*.bak
+*.tgz
+.helmignore
+.project
+.idea/
+*.tmproj
+.vscode/
+OWNERS
+# Don't ship dev/test fixtures
+tests/
+*.test
+ci/

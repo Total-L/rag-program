@@ -1,0 +1,53 @@
+# Stage 5 — 数据工程本地基座
+#
+# 起 Postgres + pgvector + MinIO，让 P6 / L22 的"生产写路径"真实可跑。
+# 教学用，**不**用于生产部署（生产用托管的 RDS / S3 / Confluence Cloud 等）。
+#
+# 用：
+#   docker compose -f 05-data-engineering/docker-compose.yml up -d
+#   export P6_PG_DSN='postgresql://rag:rag@localhost:5432/ragkb'
+#   export P1_PG_DSN='postgresql://rag:rag@localhost:5432/ragkb'   # 共享同一库也可
+#   pytest projects/p6-ingestion-platform/tests --run-pg           # 跑 pgvector 端到端
+#
+# 停：
+#   docker compose -f 05-data-engineering/docker-compose.yml down
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: rag-postgres
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag
+      POSTGRES_DB: ragkb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rag -d ragkb"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  minio:
+    image: minio/minio:latest
+    container_name: rag-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: rag
+      MINIO_ROOT_PASSWORD: ragragrag
+    ports:
+      - "9000:9000"     # S3 API
+      - "9001:9001"     # console
+    volumes:
+      - miniodata:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  pgdata:
+  miniodata:

@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────────────────────
+# .dockerignore — 排除不进镜像的文件
+#
+# 目标：最小镜像 + 不泄漏 secrets / 不需要中间产物
+# ─────────────────────────────────────────────────────────────
+
+# ── venv / 依赖 ──
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+*.egg-info/
+build/
+dist/
+
+# ── git / IDE ──
+.git/
+.gitignore
+.gitattributes
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ── 测试 / 报告 ──
+artifacts/
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# ── 数据（运行时挂 volume；不进镜像）──
+data/
+**/data/
+!projects/**/data/.gitkeep
+
+# ── 日志 ──
+*.log
+logs/
+
+# ── 文档可选（不进镜像；仅保留 README）──
+docs/postmortem.md
+docs/RCA_*.md
+
+# ── 不在容器内跑的 lab / 训练营配套 ──
+course-mirror/
+04-interview/
+interview/
+
+# ── K8s / IaC（容器外；不进镜像）──
+k8s/
+helm/
+terraform/
+
+# ── secrets（绝不能进镜像；用 env 注入）──
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ── 容器自身 ──
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.*.yml

@@ -1,0 +1,124 @@
+{
+  "n": 8,
+  "agreement_rate": 1.0,
+  "rows": [
+    {
+      "id": "L01",
+      "q": "员工每年能休多少天年假？",
+      "retrieved": [
+        "lab-hr-01",
+        "lab-hr-04"
+      ],
+      "expected": [
+        "lab-hr-01"
+      ],
+      "must_abstain": false,
+      "heuristic": "good",
+      "judge": "good",
+      "agree": true
+    },
+    {
+      "id": "L02",
+      "q": "新入职的同事每年法定假期之外的休假有几天？",
+      "retrieved": [
+        "lab-inc-01",
+        "lab-hr-02"
+      ],
+      "expected": [
+        "lab-hr-01"
+      ],
+      "must_abstain": false,
+      "heuristic": "poor",
+      "judge": "poor",
+      "agree": true
+    },
+    {
+      "id": "L03",
+      "q": "如果生病需要请假怎么办？",
+      "retrieved": [
+        "lab-it-01",
+        "lab-hr-02"
+      ],
+      "expected": [
+        "lab-hr-02"
+      ],
+      "must_abstain": false,
+      "heuristic": "good",
+      "judge": "good",
+      "agree": true
+    },
+    {
+      "id": "L04",
+      "q": "差旅能住多少钱的酒店？",
+      "retrieved": [
+        "lab-rel-01",
+        "lab-hr-03"
+      ],
+      "expected": [
+        "lab-hr-03"
+      ],
+      "must_abstain": false,
+      "heuristic": "good",
+      "judge": "good",
+      "agree": true
+    },
+    {
+      "id": "L05",
+      "q": "如何访问公司内部网络？",
+      "retrieved": [
+        "lab-inc-01",
+        "lab-hr-02"
+      ],
+      "expected": [
+        "lab-it-01"
+      ],
+      "must_abstain": false,
+      "heuristic": "poor",
+      "judge": "poor",
+      "agree": true
+    },
+    {
+      "id": "L06",
+      "q": "公司的发版流程是怎么样的？",
+      "retrieved": [
+        "lab-hr-02",
+        "lab-hr-04"
+      ],
+      "expected": [
+        "lab-rel-01"
+      ],
+      "must_abstain": false,
+      "heuristic": "poor",
+      "judge": "poor",
+      "agree": true
+    },
+    {
+      "id": "L07",
+      "q": "P0 事故响应时限是多久？",
+      "retrieved": [
+        "lab-cs-01",
+        "lab-inc-01"
+      ],
+      "expected": [
+        "lab-inc-01"
+      ],
+      "must_abstain": false,
+      "heuristic": "good",
+      "judge": "good",
+      "agree": true
+    },
+    {
+      "id": "L08",
+      "q": "公司有没有关于量子计算的内部政策？",
+      "retrieved": [
+        "lab-it-01",
+        "lab-inc-01"
+      ],
+      "expected": [],
+      "must_abstain": true,
+      "heuristic": "poor",
+      "judge": "poor",
+      "agree": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "q": "RAG 用 HNSW 索引会更快吗？",
+    "strategy": "multi-query",
+    "output": "{\n  \"id\": \"06b3f7aa5b1318fcfae2a228927c6efe\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"好的，请提供需要改写的用户问题。\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 67,\n    \"output_tokens\": 10,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "RAG 用 HNSW 索引会更快吗？",
+    "strategy": "hyde",
+    "output": "{\n  \"id\": \"06b3f7ada0e51dab6b63832bd4c77d2a\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"是的，RAG 使用 HNSW（Hierarchical Navigable Small World）索引通常会比传统的暴力搜索或基于树的索引更快。HNSW 是一种基于图的近似最近邻搜索算法，它通过构建多层导航图实现对数时间复杂度的检索，在保证较高召回率的同时大幅提升查询速度，特别适合高维向量的大规模检索场景。不过 HNSW 是内存密集型的，索引构建较慢且占用内存较多，且返回的是近似结果而非精确结果，在召回精度要求极高的场景下需要权衡。\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 84,\n    \"output_tokens\": 108,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "RAG 用 HNSW 索引会更快吗？",
+    "strategy": "step-back",
+    "output": "{\n  \"id\": \"06b3f7b2b4cc7d77656810011ef9ca47\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"RAG 的检索效率受哪些因素影响？\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 3,\n    \"output_tokens\": 11,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 256,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "RAG 用 HNSW 索引会更快吗？",
+    "strategy": "decomposition",
+    "output": "{\n  \"id\": \"06b3f7b4bd567e6333221f2a40ae5e72\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"1. RAG 和 HNSW 索引的基本原理是什么？\\n2. HNSW 索引相比其他索引方式在检索速度上有什么优势？\\n3. RAG 系统中使用 HNSW 索引会带来哪些实际效果和潜在问题？\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 84,\n    \"output_tokens\": 53,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "员工持股 cliff 是什么意思？",
+    "strategy": "multi-query",
+    "output": "{\n  \"id\": \"06b3f7bd415b7e389ba31fe2b5fc3b89\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"How can I contact customer support?\\nWhat are the ways to reach the support team?\\nHow do I get in touch with customer service?\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 67,\n    \"output_tokens\": 28,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "员工持股 cliff 是什么意思？",
+    "strategy": "hyde",
+    "output": "{\n  \"id\": \"06b3f7bf5bd31127be45e957b84dc376\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"员工持股 cliff 是指员工在获得公司授予的股权激励（如期权或限制性股票）后，必须满足一定的最短服务期要求，才能开始归属（vest）第一部分权益。在 cliff 期结束之前，员工若离职则无法获得任何股权；一旦达到 cliff 期限，通常会有一个较大的初始归属比例，之后再按周期逐步归属剩余部分。这一机制旨在保留关键人才，激励员工长期为公司服务。\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 78,\n    \"output_tokens\": 85,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "员工持股 cliff 是什么意思？",
+    "strategy": "step-back",
+    "output": "{\n  \"id\": \"06b3f7c2c3094c15f360c07ef029d3cc\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"员工持股计划中常见的条款有哪些？其含义是什么？\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 125,\n    \"output_tokens\": 13,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  },
+  {
+    "q": "员工持股 cliff 是什么意思？",
+    "strategy": "decomposition",
+    "output": "{\n  \"id\": \"06b3f7c42a4051eb69d9e548a9b12432\",\n  \"type\": \"message\",\n  \"role\": \"assistant\",\n  \"model\": \"MiniMax-M3\",\n  \"content\": [\n    {\n      \"text\": \"1. 员工持股（Employee Stock Ownership）的基本概念是什么？\\n2. 在员工持股计划中，cliff（悬崖期/归属门槛）是如何定义的？\\n3. cliff 在员工持股计划中的具体作用和意义是什么？\",\n      \"type\": \"text\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 78,\n    \"output_tokens\": 48,\n    \"cache_creation_input_tokens\": 0,\n    \"cache_read_input_tokens\": 128,\n    \"service_tier\": \"standard\"\n  },\n  \"stop_reason\": \"end_turn\",\n  \"base_resp\": {\n    \"status_code\": 0,\n    \"status_msg\": \"\"\n  }\n}"
+  }
+]
