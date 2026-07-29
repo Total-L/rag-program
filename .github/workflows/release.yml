@@ -72,7 +72,9 @@ jobs:
           uv pip install --system --no-deps -e .
 
       - name: Ruff lint
-        run: ruff check .
+        # 与 ci.yml 同步 scope:projects/ + eval/,避免对 scripts/ tests/ 顶层文件触发
+        # 历史 F401 / E501 等。release gate 只对项目内代码做 lint 即可。
+        run: python -m ruff check projects/ eval/ --output-format=github
 
       - name: Run tests
         run: pytest projects/ -q -m "not integration"
