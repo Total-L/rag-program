@@ -16,8 +16,8 @@ __pycache__/
 *.env.local
 
 # Data (generated, can be rebuilt)
-datasets/fixtures/*/
-!datasets/fixtures/.gitkeep
+# NOTE: datasets/fixtures/ is NOT excluded — synthetic sample docs needed by
+# P2/P4 smoke tests in CI (~1.2MB, no PII). F-6.2 CI gate fix 2026-07-30.
 datasets/public/raw/
 eval/reports/*/
 !eval/reports/.gitkeep

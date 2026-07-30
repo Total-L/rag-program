@@ -1,0 +1,1000 @@
+{"turn_id": "D-00001", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00002", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00003", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00004", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00005", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00006", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00007", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00008", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00009", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00010", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00011", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00012", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00013", "intent": "account", "user": "什么是会员积分？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00014", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00015", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00016", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00017", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00018", "intent": "account", "user": "怎么注销账号？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00019", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00020", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00021", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00022", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00023", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00024", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00025", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00026", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00027", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00028", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00029", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00030", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00031", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00032", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00033", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00034", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00035", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00036", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00037", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00038", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00039", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00040", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00041", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00042", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00043", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00044", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00045", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00046", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00047", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00048", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00049", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00050", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00051", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00052", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00053", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00054", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00055", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00056", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00057", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00058", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00059", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00060", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00061", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00062", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00063", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00064", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00065", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00066", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00067", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00068", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00069", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00070", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00071", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00072", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00073", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00074", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00075", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00076", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00077", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00078", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00079", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00080", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00081", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00082", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00083", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00084", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00085", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00086", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00087", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00088", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00089", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00090", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00091", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00092", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00093", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00094", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00095", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00096", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00097", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00098", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00099", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00100", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00101", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00102", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00103", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00104", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00105", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00106", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00107", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00108", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00109", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00110", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00111", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00112", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00113", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00114", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00115", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00116", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00117", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00118", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00119", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00120", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00121", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00122", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00123", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00124", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00125", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00126", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00127", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00128", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00129", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00130", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00131", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00132", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00133", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00134", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00135", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00136", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00137", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00138", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00139", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00140", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00141", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00142", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00143", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00144", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00145", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00146", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00147", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00148", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00149", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00150", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00151", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00152", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00153", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00154", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00155", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00156", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00157", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00158", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00159", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00160", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00161", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00162", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00163", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00164", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00165", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00166", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00167", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00168", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00169", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00170", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00171", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00172", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00173", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00174", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00175", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00176", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00177", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00178", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00179", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00180", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00181", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00182", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00183", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00184", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00185", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00186", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00187", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00188", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00189", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00190", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00191", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00192", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00193", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00194", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00195", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00196", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00197", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00198", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00199", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00200", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00201", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00202", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00203", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00204", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00205", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00206", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00207", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00208", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00209", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00210", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00211", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00212", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00213", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00214", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00215", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00216", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00217", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00218", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00219", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00220", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00221", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00222", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00223", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00224", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00225", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00226", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00227", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00228", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00229", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00230", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00231", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00232", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00233", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00234", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00235", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00236", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00237", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00238", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00239", "intent": "billing", "user": "支持哪些支付方式？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00240", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00241", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00242", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00243", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00244", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00245", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00246", "intent": "billing", "user": "支持哪些支付方式？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00247", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00248", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00249", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00250", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00251", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00252", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00253", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00254", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00255", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00256", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00257", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00258", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00259", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00260", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00261", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00262", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00263", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00264", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00265", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00266", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00267", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00268", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00269", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00270", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00271", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00272", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00273", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00274", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00275", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00276", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00277", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00278", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00279", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00280", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00281", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00282", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00283", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00284", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00285", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00286", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00287", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00288", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00289", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00290", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00291", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00292", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00293", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00294", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00295", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00296", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00297", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00298", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00299", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00300", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00301", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00302", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00303", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00304", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00305", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00306", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00307", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00308", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00309", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00310", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00311", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00312", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00313", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00314", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00315", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00316", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00317", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00318", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00319", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00320", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00321", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00322", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00323", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00324", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00325", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00326", "intent": "billing", "user": "支持哪些支付方式？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00327", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00328", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00329", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00330", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00331", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00332", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00333", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00334", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00335", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00336", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00337", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00338", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00339", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00340", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00341", "intent": "account", "user": "什么是会员积分？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00342", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00343", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00344", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00345", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00346", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00347", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00348", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00349", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00350", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00351", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00352", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00353", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00354", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00355", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00356", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00357", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00358", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00359", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00360", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00361", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00362", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00363", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00364", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00365", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00366", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00367", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00368", "intent": "shipping", "user": "怎么查看物流？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00369", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00370", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00371", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00372", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00373", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00374", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00375", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00376", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00377", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00378", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00379", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00380", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00381", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00382", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00383", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00384", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00385", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00386", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00387", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00388", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00389", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00390", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00391", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00392", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00393", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00394", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00395", "intent": "billing", "user": "支持哪些支付方式？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00396", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00397", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00398", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00399", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00400", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00401", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00402", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00403", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00404", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00405", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00406", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00407", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00408", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00409", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00410", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00411", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00412", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00413", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00414", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00415", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00416", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00417", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00418", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00419", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00420", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00421", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00422", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00423", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00424", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00425", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00426", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00427", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00428", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00429", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00430", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00431", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00432", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00433", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00434", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00435", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00436", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00437", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00438", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00439", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00440", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00441", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00442", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00443", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00444", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00445", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00446", "intent": "account", "user": "怎么注销账号？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00447", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00448", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00449", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00450", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00451", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00452", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00453", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00454", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00455", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00456", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00457", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00458", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00459", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00460", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00461", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00462", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00463", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00464", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00465", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00466", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00467", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00468", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00469", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00470", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00471", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00472", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00473", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00474", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00475", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00476", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00477", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00478", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00479", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00480", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00481", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00482", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00483", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00484", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00485", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00486", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00487", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00488", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00489", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00490", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00491", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00492", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00493", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00494", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00495", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00496", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00497", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00498", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00499", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00500", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00501", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00502", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00503", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00504", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00505", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00506", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00507", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00508", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00509", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00510", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00511", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00512", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00513", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00514", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00515", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00516", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00517", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00518", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00519", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00520", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00521", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00522", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00523", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00524", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00525", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00526", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00527", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00528", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00529", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00530", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00531", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00532", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00533", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00534", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00535", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00536", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00537", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00538", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00539", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00540", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00541", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00542", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00543", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00544", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00545", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00546", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00547", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00548", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00549", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00550", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00551", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00552", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00553", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00554", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00555", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00556", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00557", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00558", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00559", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00560", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00561", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00562", "intent": "billing", "user": "支持哪些支付方式？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00563", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00564", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00565", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00566", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00567", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00568", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00569", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00570", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00571", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00572", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00573", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00574", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00575", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00576", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00577", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00578", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00579", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00580", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00581", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00582", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00583", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00584", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00585", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00586", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00587", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00588", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00589", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00590", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00591", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00592", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00593", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00594", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00595", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00596", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00597", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00598", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00599", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00600", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00601", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00602", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00603", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00604", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00605", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00606", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00607", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00608", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00609", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00610", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00611", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00612", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00613", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00614", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00615", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00616", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00617", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00618", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00619", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00620", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00621", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00622", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00623", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00624", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00625", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00626", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00627", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00628", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00629", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00630", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00631", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00632", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00633", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00634", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00635", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00636", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00637", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00638", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00639", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00640", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00641", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00642", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00643", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00644", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00645", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00646", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00647", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00648", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00649", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00650", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00651", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00652", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00653", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00654", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00655", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00656", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00657", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00658", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00659", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00660", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00661", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00662", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00663", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00664", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00665", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00666", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00667", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00668", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00669", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00670", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00671", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00672", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00673", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00674", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00675", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00676", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00677", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00678", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00679", "intent": "account", "user": "怎么注销账号？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00680", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00681", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00682", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00683", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00684", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00685", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00686", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00687", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00688", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00689", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00690", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00691", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00692", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00693", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00694", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00695", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00696", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00697", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00698", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00699", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00700", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00701", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00702", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00703", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00704", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00705", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00706", "intent": "shipping", "user": "怎么查看物流？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00707", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00708", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00709", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00710", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00711", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00712", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00713", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00714", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00715", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00716", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00717", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00718", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00719", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00720", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00721", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00722", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00723", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00724", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00725", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00726", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00727", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00728", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00729", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00730", "intent": "account", "user": "怎么注销账号？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00731", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00732", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00733", "intent": "account", "user": "黑卡会员特权？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00734", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00735", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00736", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00737", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00738", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00739", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00740", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00741", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00742", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00743", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00744", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00745", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00746", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00747", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00748", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00749", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00750", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00751", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00752", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00753", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00754", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00755", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00756", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00757", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00758", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00759", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00760", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00761", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00762", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00763", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00764", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00765", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00766", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00767", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00768", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00769", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00770", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00771", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00772", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00773", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00774", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00775", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00776", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00777", "intent": "account", "user": "怎么注销账号？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00778", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00779", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00780", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00781", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00782", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00783", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00784", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00785", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00786", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00787", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00788", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00789", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00790", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00791", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00792", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00793", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00794", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00795", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00796", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00797", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00798", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00799", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00800", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00801", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00802", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00803", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00804", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00805", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00806", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00807", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00808", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00809", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00810", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00811", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00812", "intent": "account", "user": "如何重置密码？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00813", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00814", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00815", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00816", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00817", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00818", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00819", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00820", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00821", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00822", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00823", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00824", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00825", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00826", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00827", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00828", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00829", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00830", "intent": "shipping", "user": "可以指定快递吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00831", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00832", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00833", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00834", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00835", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00836", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00837", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00838", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00839", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00840", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00841", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00842", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00843", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00844", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00845", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00846", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00847", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00848", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00849", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00850", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00851", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00852", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00853", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00854", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00855", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00856", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00857", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00858", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00859", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00860", "intent": "general", "user": "学生有优惠吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00861", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00862", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00863", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00864", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00865", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00866", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00867", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00868", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00869", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00870", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00871", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00872", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00873", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00874", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00875", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00876", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00877", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00878", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00879", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00880", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00881", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00882", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00883", "intent": "billing", "user": "可以开发票吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00884", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00885", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00886", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00887", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00888", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00889", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00890", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00891", "intent": "shipping", "user": "怎么查看物流？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00892", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00893", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00894", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00895", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00896", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00897", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00898", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00899", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00900", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00901", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00902", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00903", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00904", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00905", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00906", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00907", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00908", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00909", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00910", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00911", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00912", "intent": "general", "user": "优惠券哪里领？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00913", "intent": "shipping", "user": "怎么查看物流？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00914", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00915", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00916", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00917", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00918", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00919", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00920", "intent": "account", "user": "会员怎么开通？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00921", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00922", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00923", "intent": "billing", "user": "支付失败怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00924", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00925", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00926", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00927", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00928", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00929", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00930", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00931", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00932", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00933", "intent": "shipping", "user": "订单多久能到？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00934", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00935", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00936", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00937", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00938", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00939", "intent": "general", "user": "怎么联系人工？", "agent": "回复'人工'即可转接，工作时间 9:00-21:00。", "faq_id": "FAQ-005", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00940", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00941", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00942", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00943", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00944", "intent": "account", "user": "什么是会员积分？", "agent": "消费 1 元积 1 分，100 积分 = 1 元抵扣。", "faq_id": "FAQ-014", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00945", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00946", "intent": "shipping", "user": "如何修改收货地址？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00947", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00948", "intent": "refund", "user": "如何申请退款？", "agent": "在订单详情页点击'申请退款'，3-5 个工作日到账。", "faq_id": "FAQ-004", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00949", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00950", "intent": "shipping", "user": "怎么查看物流？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00951", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00952", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00953", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00954", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00955", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00956", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00957", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00958", "intent": "general", "user": "怎么联系人工？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00959", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00960", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00961", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00962", "intent": "billing", "user": "发票什么时候开？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00963", "intent": "general", "user": "学生有优惠吗？", "agent": "在'学生认证'入口提交资料，通过后享 9 折。", "faq_id": "FAQ-011", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00964", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00965", "intent": "shipping", "user": "可以海外发货吗？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00966", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00967", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00968", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00969", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "请尝试：1) 重启 APP 2) 清理缓存 3) 重新安装。", "faq_id": "FAQ-008", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00970", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00971", "intent": "shipping", "user": "可以指定快递吗？", "agent": "下单时可备注首选快递；最终以发货仓库为准。", "faq_id": "FAQ-017", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00972", "intent": "shipping", "user": "怎么查看物流？", "agent": "订单详情页点击'查看物流'可看到实时轨迹。", "faq_id": "FAQ-020", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00973", "intent": "billing", "user": "发票什么时候开？", "agent": "订单完成后 3 个工作日内开具。", "faq_id": "FAQ-013", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00974", "intent": "billing", "user": "如何开发票抬头？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "escalated"}
+{"turn_id": "D-00975", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00976", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00977", "intent": "refund", "user": "如何申请退款？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00978", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00979", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00980", "intent": "billing", "user": "如何开发票抬头？", "agent": "在'发票管理'中维护公司抬头与税号。", "faq_id": "FAQ-018", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00981", "intent": "account", "user": "会员怎么开通？", "agent": "在个人中心选择套餐并完成支付即可。", "faq_id": "FAQ-006", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00982", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00983", "intent": "shipping", "user": "如何修改收货地址？", "agent": "下单前可在购物车修改；下单后联系客服。", "faq_id": "FAQ-010", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00984", "intent": "billing", "user": "支付失败怎么办？", "agent": "请检查网络与余额；若仍失败，联系银行或换支付方式。", "faq_id": "FAQ-016", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00985", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00986", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00987", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00988", "intent": "billing", "user": "支持哪些支付方式？", "agent": "微信、支付宝、银行卡、苹果支付。", "faq_id": "FAQ-009", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00989", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00990", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00991", "intent": "general", "user": "优惠券哪里领？", "agent": "在首页弹窗或'我的-优惠券'中查看。", "faq_id": "FAQ-007", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00992", "intent": "technical", "user": "APP 闪退怎么办？", "agent": "正在为您转接人工客服，请稍候。", "faq_id": null, "transferred_to_human": true, "resolution": "pending"}
+{"turn_id": "D-00993", "intent": "shipping", "user": "订单多久能到？", "agent": "通常 3-5 个工作日；偏远地区 7 天。", "faq_id": "FAQ-002", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00994", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00995", "intent": "account", "user": "如何重置密码？", "agent": "在登录页点击'忘记密码'，按提示操作。", "faq_id": "FAQ-001", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00996", "intent": "account", "user": "黑卡会员特权？", "agent": "享 95 折、专属客服、生日礼包、优先发货。", "faq_id": "FAQ-019", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00997", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00998", "intent": "account", "user": "怎么注销账号？", "agent": "在'设置-账号安全'中提交注销申请，15 天冷静期后生效。", "faq_id": "FAQ-015", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-00999", "intent": "billing", "user": "可以开发票吗？", "agent": "支持电子普票与专票；下单时备注即可。", "faq_id": "FAQ-003", "transferred_to_human": false, "resolution": "resolved"}
+{"turn_id": "D-01000", "intent": "shipping", "user": "可以海外发货吗？", "agent": "目前仅支持中国大陆地区；港澳台需联系客服。", "faq_id": "FAQ-012", "transferred_to_human": false, "resolution": "resolved"}

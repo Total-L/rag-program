@@ -40,6 +40,7 @@ dependencies = [
     # (agentic_graph.py:32) 硬依赖。M3 lockfile 测试盲区
     # ("代码 import 但 pyproject 没声明"漏报)。
     "langgraph>=0.2,<1.0",      # P1 Self-RAG / CRAG 状态图
+    "rank-bm25>=0.2,<1.0",      # P1 pipeline BM25Okapi（pipeline.py:314 硬依赖）
 ]
 
 [project.optional-dependencies]

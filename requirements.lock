@@ -2017,6 +2017,7 @@ numpy==2.4.6 \
     #   pgvector
     #   pydeck
     #   ragas
+    #   rank-bm25
     #   seaborn
     #   streamlit
 oauthlib==3.3.1 \
@@ -3218,6 +3219,10 @@ pyyaml==6.0.3 \
 ragas==0.2.15 \
     --hash=sha256:298cd3d1fe3bd21ca4d31023a55079740d7bdd27a8c915bb371cec3c50cde608 \
     --hash=sha256:2d0cd77b315a9c9c02ceb0a19ca8a48e82e1d02416587a2944ea51e6e327cd7b
+    # via -r requirements.in
+rank-bm25==0.2.2 \
+    --hash=sha256:096ccef76f8188563419aaf384a02f0ea459503fdf77901378d4fd9d87e5e51d \
+    --hash=sha256:7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae
     # via -r requirements.in
 referencing==0.37.0 \
     --hash=sha256:381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231 \

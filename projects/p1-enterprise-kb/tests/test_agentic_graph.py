@@ -26,17 +26,24 @@ from agentic_graph import (  # noqa: E402
     _node_done,
     _node_rewrite,
 )
+from llm_judge import heuristic_grade_for  # noqa: E402
 from pipeline import P1Result  # noqa: E402
 
 # ---- _grade ----
 
 
 def test_grade_heuristic_fallback_abstain():
-    """拒答 → heuristic fallback 必 poor。"""
+    """拒答 → heuristic fallback 必 poor。
+
+    F-6.3 CI gate 修复 2026-07-30：直接测 heuristic_grade_for 而非 _grade wrapper。
+    _grade wrapper 在 CI 无 mmx/ollama 时会走 llm_grade 主路径返回 "good",
+    与 fallback 路径的契约是两个独立层。heuristic_grade_for 是 fallback 契约的
+    实现者,直接测它更准确反映「heuristic fallback」语义。
+    """
     r = P1Result(
         question="", answer="x", citations=[], abstained=True, user_role="manager", latency_ms=1.0
     )
-    assert _grade(r, "年假") == "poor"
+    assert heuristic_grade_for("年假", r.citations, r.abstained) == "poor"
 
 
 def test_grade_heuristic_fallback_empty_citations():
@@ -44,7 +51,7 @@ def test_grade_heuristic_fallback_empty_citations():
     r = P1Result(
         question="", answer="a", citations=[], abstained=False, user_role="manager", latency_ms=1.0
     )
-    assert _grade(r, "年假") == "poor"
+    assert heuristic_grade_for("年假", r.citations, r.abstained) == "poor"
 
 
 def test_grade_empty_answer_is_poor():
