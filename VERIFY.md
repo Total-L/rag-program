@@ -3,7 +3,7 @@
 > `scripts/self_test.py` 实跑结果。日期 2026/07/27。
 > 解耦后两层结构：
 > - **企业程序本体**（P1–P6 + Stage-5 + eval + interview）—— 不依赖 rag-course
-> - **course-mirror 附加层**（16 个 lab）—— 需要 `pip install -e ".[course-mirror]"`
+> - **course-mirror 附加层**（16 个 lab）—— 需要 `bash scripts/install-course-mirror.sh`（内部直接 `pip install kbchat @ file:///...`;不走 pyproject extra,F-8 2026-07-31）
 
 ## 速查：怎么跑
 

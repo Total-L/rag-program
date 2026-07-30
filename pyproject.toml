@@ -45,11 +45,12 @@ dependencies = [
 
 [project.optional-dependencies]
 # course-mirror 配套 lab：需要 rag-course 存在。
-# 用法：pip install -e ".[course-mirror]"
+# 用法：bash scripts/install-course-mirror.sh（脚本内直接 pip install kbchat @ file:///...）
 # 缺包时 pip 会清晰报错（不会静默回退）。
-course-mirror = [
-    "kbchat @ file:///Users/totallai/rag-course",
-]
+# 注意：course-mirror 不通过 pyproject extra 提供 — PyPI 元数据规范禁止 PEP 508 direct URL
+# reference（"kbchat @ file:///..."）,任何走 PyPI 的 metadata 都拒收（warehouse 400）。
+# 替代路径:本地单独 pip install kbchat @ file:///Users/totallai/rag-course。
+# 历史:曾用 [course-mirror] extra → F-8 2026-07-31 移除,见 CHANGELOG.md。
 dev = [
     "pytest>=8.0",
     "pytest-asyncio>=0.23",

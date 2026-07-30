@@ -24,7 +24,7 @@ make verify-course-mirror      # 跑 course-mirror/labs/ 16 个 lab
 | 层 | 路径 | 依赖 | 何时跑 |
 |---|---|---|---|
 | **企业程序本体** | `projects/p1-p6/`、`05-data-engineering/`、`eval/`、`interview/`、`datasets/` | 仅 pip install 自身 | `make verify-enterprise` |
-| **course-mirror 附加层** | `course-mirror/labs/{01..03}/` | 额外需要 `pip install -e ".[course-mirror]"`（依赖 `/Users/totallai/rag-course` 存在） | `make verify-course-mirror` |
+| **course-mirror 附加层** | `course-mirror/labs/{01..03}/` | `bash scripts/install-course-mirror.sh`（依赖 `/Users/totallai/rag-course` 存在；脚本内部 `pip install kbchat @ file:///...`,不走 pyproject extra — F-8 2026-07-31） | `make verify-course-mirror` |
 | **示例 + 工具** | `examples/`、`scripts/`、`Makefile` | 自身 | `make help` |
 
 **企业程序本体可以**：

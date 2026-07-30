@@ -31,9 +31,10 @@ if [ ! -d "$RAG_COURSE_DIR" ]; then
 fi
 echo "→ rag-course: $RAG_COURSE_DIR"
 
-# 3. 装 [course-mirror] extra（PEP 508 本地路径，pyproject 已声明）
-echo "→ 装 [course-mirror] extra..."
-$PIP install -e ".[course-mirror]"
+# 3. 装 kbchat 本地依赖（PEP 508 direct URL reference,不能进 PyPI metadata —
+#    故 pyproject.toml 不再用 [course-mirror] extra,这里直接装 file:// 路径）
+echo "→ 装 kbchat @ file://$RAG_COURSE_DIR..."
+$PIP install "kbchat @ file://$RAG_COURSE_DIR"
 
 # 4. 验证
 echo ""
